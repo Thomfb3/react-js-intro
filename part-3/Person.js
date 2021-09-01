@@ -18,7 +18,7 @@ const Person = (props) => {
             <h4>{props.age < 18 ? "You must be 18 years old" : "Please go Vote!"}</h4>
             <div>
                 <h4>Hobbies:</h4>
-                <ul>{props.hobbies.map((h, idx) => <li key={idx}>{h}</li>)}</ul>
+                <ul>{props.hobbies.map(h => <li key={h.id}>{h.text}</li>)}</ul>
             </div>
         </div>
     )
