@@ -11,7 +11,6 @@ const Tweet = (props) => {
             <h3>{props.tweet}</h3>
             <p>{props.date}</p>
             <h5>{props.name} / {props.username}</h5>
-
         </div>
     )
 }
